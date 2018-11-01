@@ -10,6 +10,7 @@ div#wrapper {
 
 body {
     font-family:"Arial", sans-serif;
+    line-height: 24px;
 }
 
 nav {
@@ -29,8 +30,28 @@ section.visuals {
 }
 img.appel {
     width: 497px;
+    height: 371px;
 }
 img.visuals {
     width:447px;
     margin-bottom: 13px;
+}
+img.book {
+    height: 308px;
+    width: 205px;
+}
+article {
+    display:inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-right: 15px;
+}
+img.article {
+    margin-top:20px;
+    margin-bottom:20px;
+    width:303px;
+}
+
+article:last-child {
+    padding-right:0px;
 }
